@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+:root {
+    --background-body: #ffffff;
+    --background: #F7F9F9;
+    --background-alt: #f7f7f7;
+    --links: #0076d1;
+}
+
+body {
+    background-color: var(--background);
+    font-family: "Source Sans Pro", sans-serif;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     margin-right: 150px;
+     margin-left: 150px;
+     line-height: 125%;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px #2482b1 solid;
+  padding: 10px;
+}
+
+.centernostyle {
+  margin: auto;
+  width: 50%;
+  padding: 0px;
+  text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin-right: 0;
+	padding: 0;
+  overflow: hidden;
+  border-style: solid;
+  text-align: center;
+}
+
+ul.course{
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+td.course {
+  list-style-type: none;
+	margin-right: auto;
+	padding: 0;
+  overflow: hidden;
+  border-style: solid;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: #3a3c40;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div.textbox{
+  max-width: 450px;
+}
+div.image_right {
+    margin: 30px;
+  }
+
+
+a {
+	text-decoration: none;
+	color: var(--links);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.home {
+	text-decoration: none;
+	color: var(--text);
+}
+
+p {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+p.home {
+  margin-right: 300px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#ul01 li:nth-child(odd){
+  background-size: 50%;
+  background-color: #ebebeb;
+  color:#585858;
+}
+
+#ul01 li:nth-child(even){
+  background-size: 50%;
+  background-color:#585858;
+  color:#ebebeb;
+}
+
+
